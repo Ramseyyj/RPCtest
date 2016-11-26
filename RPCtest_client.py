@@ -52,8 +52,8 @@ class MainWindow:
         self.button1 = Button(self.frame, text="digital mode", width=12, height=2)
         self.button2 = Button(self.frame, text="analogue mode", width=20, height=2)
 
-        self.button1.pack(padx=30, side='left')
-        self.button2.pack(padx=20, side='right')
+        self.button1.pack(padx=20, side='left')
+        self.button2.pack(padx=10, side='right')
 
         self.button1.bind("<ButtonRelease-1>", self.buttonListener1)
         self.button2.bind("<ButtonRelease-1>", self.buttonListener2)
